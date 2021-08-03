@@ -1,0 +1,161 @@
+
+/*INDEX.html*/
+body{
+    background-color: aqua;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.navbar-nav{
+    font-size: 30px;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    
+}
+.co-1{
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 10%;
+    
+}
+.weather-text h1{
+   font-size: 50px;
+   font-family: Arial, sans-serif;
+   font-weight: 500;
+     
+}
+button.know{
+
+	margin-top: 30px;
+} 
+.input-group{
+   margin-top: 2%;
+   width: 600px;
+   
+   
+}
+.form-control{
+   font-size: 25px;
+   font-family: Bradley Hand, cursive;
+  
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.btn.btn-outline-secondary{
+    border: none;
+    
+}
+.info{
+    position: relative;
+    left: 80%;
+    top:-60px;   
+}
+.info h1{
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    
+}
+.update-info{
+    min-height: 50px;
+}
+.wrapp-info{
+    background-color: #6DD7E7;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.wrapp-info .city-info{
+    font-size: 30px;
+    padding-left: 5%;
+    font-family: DejaVu Sans Mono, monospace;
+    font-weight: 500;
+    font-style: normal;
+}
+.wrapp-info .temp-info{
+    font-size: 30px;
+    padding-left: 5%;
+    font-family: DejaVu Sans Mono, monospace;
+    font-weight: 500;
+    font-style: normal;
+}
+.wrapp-info .img-info{
+    position: relative;
+    margin-top: -90px;
+    right: 2%;
+    float: right;
+    width: 90px;
+    background-color: #6DD7E7;
+    border: none;
+}
+.wrapp-info span{
+    font-size: 20px;
+    padding-left: 2%;
+    font-family: Bradley Hand, cursive;
+}
+.wrapp-info sup{
+    font-size: 15px;
+    font-family: Bradley Hand, cursive;
+}
+.wrapp-clear{
+    width: 250px;
+    height: 50px;
+    padding-top: 20px;
+    
+}
+button.clear{
+    font-size: 25px;
+    width: 200px;
+    height: 50px;
+    outline: none;
+    border-radius: 5px;
+    font-family: Helvetica, sans-serif;   
+   
+}
+
+
+/*DELETE.html*/
+.info-delete{
+    text-align: center;
+}
+.info-delete h1{
+    margin-top: 250px;
+    font-size: 70px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-family: Arial, sans-serif;
+}
+.info-delete p{
+    padding-top: 50px;
+    font-size: 50px;
+    font-family: Helvetica, sans-serif;
+    
+    
+}
+.info-delete a{
+    font-size: 50px;
+    text-decoration: none;
+    color: dimgray;
+    padding-left: 20px;
+    
+}
+.info-delete a:hover{
+    text-decoration: underline;
+}
+
+/*APPLICATION.html*/
+.info-app{
+	text-align: center;
+	
+}
+.info-app h1{
+	margin-top: 250px;
+	font-family: Arial, sans-serif;
+	font-size: 50px;
+	color: black;
+	padding-right: 5%;
+	padding-left: 5%;
+	line-height: 1.5;
+}
